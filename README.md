@@ -1,16 +1,46 @@
-## Hi there 👋
+# Olá, eu sou Deividi Luccas 👋
 
-<!--
-**DeividiLuccasdev/DeividiLuccasdev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Sou desenvolvedor em formação, focado em desenvolvimento de sistemas e construção de aplicações com Python, Flask, Delphi e MySQL.
 
-Here are some ideas to get you started:
+Atualmente estou desenvolvendo projetos próprios para fortalecer meu portfólio e buscar uma oportunidade como Desenvolvedor Júnior.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 Tecnologias que estou estudando
+
+- Python
+- Flask
+- Delphi
+- SQL
+- MySQL
+- HTML
+- CSS
+- JavaScript
+- Git
+- GitHub
+
+## 💻 Projeto em destaque
+
+### Sistema de Clientes
+
+Sistema web desenvolvido com Python, Flask e MySQL para gerenciamento de clientes.
+
+Principais funcionalidades:
+
+- Cadastro de clientes
+- Edição de dados
+- Exclusão com confirmação
+- Pesquisa de clientes
+- Validação de CPF
+- Máscaras para telefone, CPF e data de nascimento
+- Dashboard com indicadores
+- Histórico de exclusões
+
+👉 [Ver projeto Sistema de Clientes](https://github.com/DeividiLuccasdev/sistema-clientes-flask)
+
+## 🎯 Objetivo profissional
+
+Busco uma oportunidade como Desenvolvedor Júnior ou Estagiário em Desenvolvimento de Software, onde eu possa continuar evoluindo e contribuir com projetos reais.
+
+## 📫 Contato
+- deividiluccas@outlook.com
+- (https://www.linkedin.com/in/deividi-luccas-0ab589227/)
+- GitHub: @DeividiLuccasdev

@@ -65,12 +65,67 @@ Meu foco profissional está em oportunidades como **Desenvolvedor Full-Stack, De
 - TypeScript
 - Validação de build
 - Integração contínua com GitHub Actions
+- 
 
-## 💻 Projeto em destaque
+## 💻 Projetos em Destaque
 
-### Sistema de Clientes
+### 🧾 ERP Full-Stack — Sistema de Gestão Comercial
 
-Sistema web desenvolvido com Python, Flask e MySQL para gerenciamento de clientes.
+Sistema completo de gestão comercial desenvolvido com **React, TypeScript, Node.js, Express, PostgreSQL e Prisma**.
+
+Principais funcionalidades:
+
+- Autenticação com JWT
+- Controle de perfis ADMIN e OPERADOR
+- Cadastro e gerenciamento de clientes
+- Cadastro e gerenciamento de produtos
+- Controle de entrada e saída de estoque
+- Histórico de movimentações
+- Produtos com estoque baixo
+- Criação e gerenciamento de pedidos
+- Inclusão de itens nas vendas
+- Finalização e cancelamento de pedidos
+- Baixa automática de estoque
+- Dashboard com indicadores e faturamento
+- Docker e Docker Compose
+- CI com GitHub Actions
+- Deploy no Render
+- Banco PostgreSQL hospedado no Neon
+
+👉 [Ver ERP Full-Stack no GitHub](https://github.com/DeividiLuccasdev/erp-fullstack)
+
+🌐 [Acessar aplicação online](https://erp-fullstack-frontend.onrender.com)
+
+---
+
+### 🎫 Central de Chamados
+
+Sistema web de gerenciamento de chamados desenvolvido com **Python, FastAPI, PostgreSQL, SQLAlchemy, JWT e Docker**.
+
+Principais funcionalidades:
+
+- Autenticação de usuários
+- Controle de usuários ativos e inativos
+- API REST protegida com JWT
+- Cadastro e gerenciamento de chamados
+- Dashboard
+- Filtros e pesquisa
+- Autocomplete
+- Hash de senhas com Argon2
+- Testes automatizados com Pytest
+- Docker
+- Deploy no Render
+- PostgreSQL no Neon
+
+👉 [Ver Central de Chamados no GitHub](https://github.com/DeividiLuccasdev/central-chamados-fastapi)
+
+🌐 [Acessar aplicação online](https://central-chamados-fastapi.onrender.com/login-web)
+
+---
+
+### 👥 Sistema de Clientes
+
+Sistema web desenvolvido com **Python, Flask, MySQL, HTML, CSS e JavaScript** para gerenciamento de clientes.
 
 Principais funcionalidades:
 
@@ -81,13 +136,18 @@ Principais funcionalidades:
 - Validação de CPF
 - Máscaras para telefone, CPF e data de nascimento
 - Dashboard com indicadores
+- Controle de atualizações
 - Histórico de exclusões
+- Variáveis de ambiente para proteção de credenciais
+- Versionamento com Git e GitHub
 
-👉 [Ver projeto Sistema de Clientes](https://github.com/DeividiLuccasdev/sistema-clientes-flask)
+👉 [Ver Sistema de Clientes no GitHub](https://github.com/DeividiLuccasdev/sistema-clientes-flask)
 
 ## 🎯 Objetivo profissional
 
-Busco uma oportunidade como Desenvolvedor Júnior ou Estagiário em Desenvolvimento de Software, onde eu possa continuar evoluindo e contribuir com projetos reais.
+Atuar como **Desenvolvedor Full-Stack Júnior, Desenvolvedor Backend Júnior ou Desenvolvedor de Software Júnior**, contribuindo no desenvolvimento de aplicações web, APIs REST, bancos de dados e soluções completas de software.
+
+Busco oportunidades em equipes de desenvolvimento onde eu possa aplicar minha experiência prática com **React, TypeScript, Node.js, Python, PostgreSQL, Docker, GitHub Actions e deploy em nuvem**.
 
 ## 📫 Contato
 - deividiluccas@outlook.com

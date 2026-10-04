@@ -22,7 +22,7 @@ Atuo com **React, TypeScript, Next.js, Node.js, Python, FastAPI, Java/Spring Boo
 
 ## 🚀 Projetos em destaque
 
-### 📸 Gasto na Foto — Full Stack + Inteligência Artificial
+### 📸 Controle de Gastos com IA — Full Stack + Inteligência Artificial
 
 Aplicação Full Stack para controle de gastos que utiliza **Google Gemini API** para analisar fotos de comprovantes e transformar as informações em dados estruturados.
 

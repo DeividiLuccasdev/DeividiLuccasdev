@@ -1,10 +1,10 @@
-﻿# 👋 Olá, eu sou Deividi Tiago Luccas
+# 👋 Olá, eu sou Deividi Tiago Luccas
 
 ### Desenvolvedor Full-Stack | React • TypeScript • Node.js • Python • Java • PostgreSQL | APIs REST • Microsserviços • IA
 
 Desenvolvedor Full-Stack com experiência na construção de aplicações web ponta a ponta, APIs REST, integração entre serviços, bancos de dados relacionais e deploy de aplicações.
 
-Atuo com **React, TypeScript, Next.js, Node.js, Python, FastAPI, Java/Spring Boot, PostgreSQL e MySQL**, além de **Docker, CI/CD, JWT, API Gateway e arquitetura de microsserviços**. Também desenvolvo projetos com **Inteligência Artificial integrada ao produto**, utilizando APIs como **Google Gemini e OpenAI**.
+Atuo com **React, TypeScript, Next.js, Node.js, Python, FastAPI, Java/Spring Boot, PostgreSQL e MySQL**, além de **Docker, CI/CD, JWT, API Gateway e arquitetura de microsserviços**. Também desenvolvo projetos com **Inteligência Artificial integrada ao produto**, utilizando LLMs via **API compatível com OpenAI (Groq)**, incluindo modelos de visão.
 
 🎓 Cursando **Análise e Desenvolvimento de Sistemas — Faculdade Anhanguera**  
 📍 Araraquara — SP, Brasil
@@ -22,24 +22,31 @@ Atuo com **React, TypeScript, Next.js, Node.js, Python, FastAPI, Java/Spring Boo
 
 ## 🚀 Projetos em destaque
 
+> ⏳ As demos usam o plano gratuito do Render: o primeiro acesso pode levar de 30 a 60 segundos enquanto o servidor acorda.
+
 ### 📸 Controle de Gastos com IA — Full Stack + Inteligência Artificial
 
-Aplicação Full Stack para controle de gastos que utiliza **Google Gemini API** para analisar fotos de comprovantes e transformar as informações em dados estruturados.
+Aplicação Full Stack para controle de gastos que utiliza um **modelo de visão (Qwen, via Groq)** para analisar fotos de comprovantes e transformar as informações em dados estruturados.
 
 **Destaques técnicos:**
 
-- Análise de comprovantes com Google Gemini
+- Análise de comprovantes com IA de visão (Qwen via Groq)
 - Processamento de imagens com Sharp
 - Extração estruturada em JSON
 - Autenticação JWT
 - Persistência com Prisma ORM e PostgreSQL
 - Frontend responsivo em Next.js/React
+- Imagens servidas só para o dono, com validação contra path traversal
+- Testes automatizados e CI com GitHub Actions
 - Integração entre frontend, backend, IA e banco de dados
 
-**Stack:** `Next.js` `React` `TypeScript` `Node.js` `Express` `Prisma` `PostgreSQL` `JWT` `Sharp` `Google Gemini API`
+**Stack:** `Next.js` `React` `TypeScript` `Node.js` `Express` `Prisma` `PostgreSQL` `JWT` `Sharp` `Groq` `GitHub Actions`
+
+🌐 **Demo:**  
+https://controle-gastos-ia.onrender.com
 
 💻 **Repositório:**  
-https://github.com/DeividiLuccasdev/Gasto-na-foto
+https://github.com/DeividiLuccasdev/Controle-de-Gastos-com-IA
 
 ---
 
@@ -60,11 +67,12 @@ Uma oportunidade marcada como ganha no CRM gera um pedido no ERP e inicia o flux
 - Autenticação JWT
 - Controle de acesso por perfis
 - Integração entre CRM, ERP e Financeiro
-- Integração com OpenAI API
+- Assistente de IA com LLM via Groq (API compatível com OpenAI)
+- Serviços acessíveis só pelo Gateway (chave interna entre serviços)
 - PostgreSQL com Prisma ORM
 - Deploy em produção com Render e Neon
 
-**Stack:** `React` `TypeScript` `Node.js` `Express` `PostgreSQL` `Prisma` `JWT` `Docker` `OpenAI API` `API Gateway` `Render` `Neon`
+**Stack:** `React` `TypeScript` `Node.js` `Express` `PostgreSQL` `Prisma` `JWT` `Docker` `Groq` `API Gateway` `Render` `Neon`
 
 🌐 **Demo:**  
 https://smartflow-ai-frontend.onrender.com
@@ -105,9 +113,9 @@ https://github.com/DeividiLuccasdev/erp-fullstack
 
 API REST para gerenciamento de chamados, desenvolvida com Python e FastAPI.
 
-Possui autenticação JWT, dashboard, filtros de busca, persistência em PostgreSQL e testes automatizados.
+Possui API REST com JWT, interface web com sessão, dashboard, filtros de busca, persistência em PostgreSQL e 48 testes automatizados com CI.
 
-**Stack:** `Python` `FastAPI` `PostgreSQL` `SQLAlchemy` `JWT` `Pytest` `Docker`
+**Stack:** `Python` `FastAPI` `PostgreSQL` `SQLAlchemy` `JWT` `Pytest` `Docker` `GitHub Actions`
 
 🌐 **Demo:**  
 https://central-chamados-fastapi.onrender.com/login-web
@@ -119,9 +127,12 @@ https://github.com/DeividiLuccasdev/central-chamados-fastapi
 
 ### 👥 Sistema de Gerenciamento de Clientes
 
-Aplicação CRUD para gerenciamento de clientes com cadastro, edição, exclusão, pesquisa, validações, dashboard e histórico de exclusões.
+Aplicação CRUD para gerenciamento de clientes com cadastro, edição, exclusão, pesquisa, validações, dashboard e histórico de exclusões. Conta com proteção CSRF, limite de tentativas de login, redefinição de senha e testes automatizados.
 
-**Stack:** `Python` `Flask` `MySQL` `HTML` `CSS` `JavaScript`
+**Stack:** `Python` `Flask` `MySQL` `HTML` `CSS` `JavaScript` `Pytest` `GitHub Actions`
+
+🌐 **Demo:**  
+https://sistema-clientes-flask-ev90.onrender.com
 
 💻 **Repositório:**  
 https://github.com/DeividiLuccasdev/sistema-clientes-flask
@@ -170,6 +181,7 @@ https://github.com/DeividiLuccasdev/sistema-clientes-flask
 ### Inteligência Artificial
 
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logoColor=white)
 ![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
 
 ### Arquitetura & Engenharia

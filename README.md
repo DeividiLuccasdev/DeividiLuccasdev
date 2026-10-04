@@ -193,7 +193,7 @@ https://github.com/DeividiLuccasdev/sistema-clientes-flask
 ## 💼 Experiência profissional
 
 ### Desenvolvedor Full-Stack — Teccon
-**2024 – 2026**
+**Abril de 2024 – Junho de 2026**
 
 - Desenvolvimento e evolução de aplicações web full-stack
 - Desenvolvimento de APIs REST, dashboards e autenticação JWT
@@ -209,7 +209,7 @@ https://github.com/DeividiLuccasdev/sistema-clientes-flask
 ---
 
 ### Desenvolvedor Full-Stack — Arablock
-**Dezembro de 2023 – Agosto de 2024**
+**Agosto de 2022 – Março de 2024**
 
 - Desenvolvimento e manutenção de aplicações web e mobile
 - Desenvolvimento com React, Next.js, TypeScript e React Native

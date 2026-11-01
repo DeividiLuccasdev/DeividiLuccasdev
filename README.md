@@ -24,6 +24,29 @@ Atuo com **React, TypeScript, Next.js, Node.js, Python, FastAPI, Java/Spring Boo
 
 > ⏳ As demos usam o plano gratuito do Render: o primeiro acesso pode levar de 30 a 60 segundos enquanto o servidor acorda.
 
+### ⚙️ AutoFlow RPA — Automação Financeira e Integrações
+
+Plataforma de portfólio para **extração e validação de PDFs fictícios**, com auditoria, controle de duplicidade e processamento assíncrono.
+
+**Destaques técnicos:**
+
+- Robô Playwright que preenche um ERP fictício pelo navegador, salva e confirma a persistência após recarregar
+- Contas por convite, sessões revogáveis, proteção CSRF e dados financeiros separados por usuário
+- PostgreSQL com SQLAlchemy e migrações Alembic
+- Fila durável com Celery e Redis, recuperação de falhas e controle de concorrência
+- **145 testes aprovados**, incluindo integração com banco e fila reais, isolamento entre usuários e requisições simultâneas
+- CI com GitHub Actions e publicação no Render após as verificações
+
+**Stack:** Python · FastAPI · PostgreSQL · SQLAlchemy · Redis · Celery · Playwright · Pytest · Docker · GitHub Actions
+
+A demonstração pública usa adaptadores de ERP simulados e dados fictícios. O robô Playwright executa localmente e no CI; a fila assíncrona permanece desativada no Render gratuito. Não há pagamentos reais.
+
+🌐 **Demo:** https://autoflow-rpa-api.onrender.com/
+
+💻 **Repositório público:** https://github.com/DeividiLuccasdev/autoflow-rpa
+
+---
+
 ### 📸 Controle de Gastos com IA — Full Stack + Inteligência Artificial
 
 Aplicação Full Stack para controle de gastos que utiliza um **modelo de visão (Qwen, via Groq)** para analisar fotos de comprovantes e transformar as informações em dados estruturados.

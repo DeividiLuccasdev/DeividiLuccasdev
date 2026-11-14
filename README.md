@@ -26,22 +26,28 @@ Atuo com **React, TypeScript, Next.js, Node.js, Python, FastAPI, Java/Spring Boo
 
 ### ⚙️ AutoFlow RPA — Automação Financeira e Integrações
 
-Plataforma de portfólio para **extração e validação de PDFs fictícios**, com auditoria, controle de duplicidade e processamento assíncrono.
+Automação financeira de ponta a ponta: **extração de notas em PDF, conciliação, revisão humana e auditoria**. O foco está no que costuma quebrar em automações reais: duplicidade, divergência de valores, falhas no meio do processo e rastreabilidade.
+
+<a href="https://github.com/DeividiLuccasdev/autoflow-rpa"><img src="https://raw.githubusercontent.com/DeividiLuccasdev/autoflow-rpa/main/docs/img/dashboard.png" alt="Centro de operações do AutoFlow RPA" width="720"></a>
 
 **Destaques técnicos:**
 
+- Automação entre um ERP de origem e um de destino, etapa por etapa, com bloqueio de lançamento duplicado
+- Divergências param o fluxo antes do lançamento: aprovação exige correção e justificativa registrada na auditoria
+- Conciliação em lote de PDFs com extrato CSV, com relatórios CSV/JSON
 - Robô Playwright que preenche um ERP fictício pelo navegador, salva e confirma a persistência após recarregar
-- Contas por convite, sessões revogáveis, proteção CSRF e dados financeiros separados por usuário
-- PostgreSQL com SQLAlchemy e migrações Alembic
-- Fila durável com Celery e Redis, recuperação de falhas e controle de concorrência
-- **145 testes aprovados**, incluindo integração com banco e fila reais, isolamento entre usuários e requisições simultâneas
-- CI com GitHub Actions e publicação no Render após as verificações
+- Fila durável com Celery e Redis: reserva atômica no banco, backoff exponencial e efeito único mesmo com entrega duplicada
+- Contas por convite, sessões revogáveis, CSRF, CSP, rate limit e dados financeiros separados por usuário
+- **Mais de 200 testes** com PostgreSQL, Redis, Celery e Chromium reais
+- CI com lint (ruff), cobertura, auditoria de dependências e smoke test da imagem Docker; publicação no Render só após os checks
 
-**Stack:** Python · FastAPI · PostgreSQL · SQLAlchemy · Redis · Celery · Playwright · Pytest · Docker · GitHub Actions
+**Stack:** Python · FastAPI · PostgreSQL · SQLAlchemy · Alembic · Redis · Celery · Playwright · Pytest · Docker · GitHub Actions
 
 A demonstração pública usa adaptadores de ERP simulados e dados fictícios. O robô Playwright executa localmente e no CI; a fila assíncrona permanece desativada no Render gratuito. Não há pagamentos reais.
 
 🌐 **Demo:** https://autoflow-rpa-api.onrender.com/
+
+🎬 **Vídeo:** https://portfolio-deividi.vercel.app/projects/autoflow-rpa/apresentacao.mp4
 
 💻 **Repositório público:** https://github.com/DeividiLuccasdev/autoflow-rpa
 

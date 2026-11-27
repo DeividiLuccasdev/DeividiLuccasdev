@@ -1,6 +1,6 @@
 # 👋 Olá, eu sou Deividi Tiago Luccas
 
-### Desenvolvedor Full-Stack | React • Next.js • TypeScript • Node.js • Python • Java | APIs REST • Automação • IA
+### AI Builder | React, Next.js, TypeScript, Node.js e Python | APIs REST, PostgreSQL, Microsserviços e IA | Do código à produção, sem atalhos.
 
 Desenvolvedor Full-Stack com experiência em aplicações web ponta a ponta, APIs REST, integração entre serviços, automação de processos e deploy.
 

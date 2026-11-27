@@ -1,10 +1,12 @@
 # 👋 Olá, eu sou Deividi Tiago Luccas
 
-### Desenvolvedor Full-Stack | React • TypeScript • Node.js • Python • Java • PostgreSQL | APIs REST • Microsserviços • IA
+### Desenvolvedor Full-Stack | React • Next.js • TypeScript • Node.js • Python • Java | APIs REST • Automação • IA
 
-Desenvolvedor Full-Stack com experiência na construção de aplicações web ponta a ponta, APIs REST, integração entre serviços, bancos de dados relacionais e deploy de aplicações.
+Desenvolvedor Full-Stack com experiência em aplicações web ponta a ponta, APIs REST, integração entre serviços, automação de processos e deploy.
 
-Atuo com **React, TypeScript, Next.js, Node.js, Python, FastAPI, Java/Spring Boot, PostgreSQL e MySQL**, além de **Docker, CI/CD, JWT, API Gateway e arquitetura de microsserviços**. Também desenvolvo projetos com **Inteligência Artificial integrada ao produto**, utilizando LLMs via **API compatível com OpenAI (Groq)**, incluindo modelos de visão.
+Atuo com **React, Next.js, TypeScript e Supabase** em portais web e com **Node.js, Python/FastAPI e Java/Spring Boot** no backend. Trabalho com **PostgreSQL e MySQL**, além de **Docker, CI/CD, JWT, API Gateway e microsserviços**.
+
+Desenvolvo **robôs com Node.js, TypeScript e Playwright** e **integrações em Python** para processar PDFs e imagens com OCR e gerar relatórios. Também integro **modelos de linguagem e visão** a aplicações por meio da API da Groq, compatível com a OpenAI.
 
 🎓 Cursando **Análise e Desenvolvimento de Sistemas — Faculdade Anhanguera**  
 📍 Araraquara — SP, Brasil

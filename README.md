@@ -221,11 +221,11 @@ https://github.com/DeividiLuccasdev/sistema-clientes-flask
 
 ## 💼 Experiência profissional
 
-### Grupo Atri — Automação, integrações e portal web
+### Automação, integrações e portal web
 
 - **Robôs de automação:** Node.js, TypeScript e tsx, com Playwright 1.63 para automatizar fluxos no navegador. Processamento de documentos com pdf-lib, pdfjs-dist e Tesseract OCR, configuração com dotenv e execução agendada no Windows.
-- **Integração com o Conferência:** scripts em Python 3.11 que consultam a API e geram relatórios usados pelos robôs. Leitura de PDFs e imagens com pdfplumber, Pillow, Poppler e Tesseract OCR. Testes com unittest e auditoria de dependências com pip-audit.
-- **Portal Atri:** Next.js 16, React 19 e TypeScript, com Supabase para banco de dados e autenticação e Vercel para publicação.
+- **Integração com o sistema de conferência:** scripts em Python 3.11 que consultam a API e geram relatórios usados pelos robôs. Leitura de PDFs e imagens com pdfplumber, Pillow, Poppler e Tesseract OCR. Testes com unittest e auditoria de dependências com pip-audit.
+- **Portal web:** Next.js 16, React 19 e TypeScript, com Supabase para banco de dados e autenticação e Vercel para publicação.
 - **Integração contínua:** testes automatizados no GitHub Actions a cada pull request.
 
 ---
